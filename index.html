@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arun S A - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <div class="logo"><span id="cspan">A</span>run S A.</div>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+
+
+    <section id="home">
+        <div class="home-container">
+            <div class="home-content">
+                <h1>Hi, I'm <span id="cspan" > Arun S A</span></h1>
+                <p> Electrical and Electronics Engineering</p>
+    
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/rockarunamar?mibextid=kFxxJD"><i class="fab fa-facebook"></i> </a>       
+                    <a href="https://x.com/_arun_amar_?t=bIX2LGd4Y-M6uU_82VjdYQ&s=09"><i class="fab fa-twitter"></i> </a>
+                    <a href="https://www.linkedin.com/in/arun-sa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i> </a>
+                    <a href="https://github.com/arunsa22"><i class="fab fa-github"></i> </a>
+                </div>
+    
+                <a href="your-resume.pdf" class="btn" download>Download Resume</a>
+            </div>
+    
+            <div class="home-image">
+                <img src="C:\Users\chand\Downloads\arun pic.png" alt="Profile Picture">
+            </div>
+        </div>
+    </section>
+    <!-- Font Awesome for Icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+    
+    
+    <section id="about" class="about-container">
+        <div class="about-image">
+            <img src="C:\Users\chand\Downloads\Arun PIC.jpeg" alt="About Me">
+        </div>
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>
+                A highly motivated and detail-oriented professional with hands-on experience in Data Analytics, Cybersecurity, and Electrical Engineering. Skilled in data wrangling, visualization, statistical analysis, and identifying security vulnerabilities. 
+            </p>
+            <p>
+                Proficient in tools like Excel, Python, SQL, Power BI, and security frameworks........ </p>
+            <a href="about.html" class="btn">Know More</a>
+        </div>
+        
+    </section>
+    
+    
+    <section id="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-container">
+
+            <div class="project-card">
+                <h3> SMART ELECTRICAL VEHICLE WITH INDUCTIVE CHARGING STATION</h3>
+                <p>The electric vehicle with wireless inductive charging using solar and mains power.</p>
+                <a href="#" class="btn">Know More</a>
+            </div>
+    
+            <div class="project-card">
+                <h3>AUTOMATIC WINDSHIELD WIPER</h3>
+                <p>The automatic windshield wiper uses a rain sensor to detect raindrops, activating the wipers.</p>
+                <a href="#" class="btn">Know More</a>
+            </div>
+    
+            <div class="project-card">
+                <h3>DATA ANALYSIS PROJECTS</h3>
+                <p>Built a REST API for task management with user authentication using Node.js and Express.</p>
+                <a href="#" class="btn">Know More</a>
+            </div>
+
+            <div class="project-card">
+                <h3>CYBER SECURITY PROJECTS</h3>
+                <p>Developed a Python-based model to analyze social media sentiments using NLP techniques.</p>
+                <a href="#" class="btn">Know More</a>
+            </div>
+            
+        </div>
+    </section>
+    
+    
+    
+    
+
+    <footer>
+        <div class="footer-container" id="contact">
+            <div class="footer-nav">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+    
+            <!-- Send Message Form -->
+            <div class="footer-form">
+                <h3>Send a Message</h3>
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+    
+            <!-- Social Media Icons -->
+            <div class="footer-social">
+                <h3>Follow Me</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/rockarunamar?mibextid=kFxxJD"><i class="fab fa-facebook"></i> </a>       
+                    <a href="https://x.com/_arun_amar_?t=bIX2LGd4Y-M6uU_82VjdYQ&s=09"><i class="fab fa-twitter"></i> </a>
+                    <a href="https://www.linkedin.com/in/arun-sa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i> </a>
+                    <a href="https://github.com/arunsa22"><i class="fab fa-github"></i> </a>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Copyright -->
+        <div class="footer-bottom">
+            <p>&copy; 2025 Arun S A | All Rights Reserved</p>
+        </div>
+    </footer>
+    
+
+    
+    <script>
+        function toggleMenu() {
+            const nav = document.querySelector('nav ul');
+            nav.classList.toggle('nav-active');
+        }
+    </script>
+</body>
+</html>
